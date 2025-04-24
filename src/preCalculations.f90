@@ -416,7 +416,7 @@ contains
          if ( ktops == 1 .and. kbots == 1 .and. ( tops(0,0) == 0.0_cp .and. bots(0,0) == 0.0_cp ) ) then ! Fixed entropy
 
             tops(0,0)=0.0_cp
-            bots(0,0)=sq4pi
+            !bots(0,0)=sq4pi
 
          else if ( ktops == 3 .and. kbots == 3 ) then ! Fixed temperature contrast
 
